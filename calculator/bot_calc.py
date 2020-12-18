@@ -11,6 +11,12 @@ Bot = ChatBot(name = 'Calculator',
 
 # clear the screen and start the calculator
 print('\033c')
+print("""Use the following commands:\n
+    'plus' for addition\n
+    'minus' for subtraction\n
+    'times' for multiplication\n
+    'divided by' for division
+""")
 print("Hello, I am a calculator. How may I help you?")
 while (True):
     # take the input from the user
